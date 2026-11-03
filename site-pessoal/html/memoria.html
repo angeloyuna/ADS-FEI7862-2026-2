@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memória - IFSC ADS Frontend I</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/responsividade.css"></head>
+<body>
+    <header>
+        <h1>Angelo Augusto Vettorazzi</h1>
+        <p>Olá, o meu nome é <em><strong>Angelo Augusto Vettorazzi</strong></em>. Atualmente, eu sou um estudante do curso de Análise e Desenvolvimento de Sistemas do <a href="https://www.ifsc.edu.br/" target="_blank">IFSC</a>.</p>
+    </header>
+    <nav>
+        <a href="index.html" class="nav-link">Principal</a>
+        <a href="saga.html" class="nav-link">Ícones da Saga</a>
+        <a href="formulario.html" class="nav-link">Formulário</a>
+        <a href="memoria.html" class="nav-link" id="nav-link-active">Memória</a>
+    </nav>
+    <hr>
+    <main>
+        <section>
+            <div id="caixa-jogo-memoria">
+                <div id="intro-jogo-memoria">
+                    <h2 id="titulo-jogo-memoria">Jogo de Memória</h2>
+                    <form id="form-quantidade-pares">
+                        <label for="quantidade-pares" id="label-quantidade-pares">Pares de Cartas:</label>
+                        <input type="label" id="quantidade-pares" name="quantidadePares">
+                        <button type="button" id="botao-comecar-jogo-memoria">Começar Jogo</button>
+                        <button type="button" id="botao-encerrar-jogo-memoria">Encerrar Jogo</button>
+                        <p id="erro-jogo-memoria">Erro: Entre um número de pares entre 1 e 10</p>
+                        <p id="ganhou-jogo-memoria">Parabéns! Você achou todos os pares de cartas!</p>
+                    </form>
+                </div>
+                <div id="jogando-jogo-memoria">
+                </div>
+                <div id="dados-jogo-memoria">
+                    <p id="dados-partidas">Partidas:<b id="dados-num-partidas"></b></p>
+                    <p id="dados-pares-achados">Pares achados: <b id="dados-num-pares-achados">0</b></p>
+                    <p id="dados-tentativas">Tentativas: <b id="dados-num-tentativas">0</b></p>
+                </div>
+            </div>
+        </section>
+        <script src="../javascript/memoria.js"></script>
+    </main>
+    <hr>
+    <footer>
+    </footer>
+</body>
+</html>

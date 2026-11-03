@@ -15,10 +15,16 @@ a:hover {
     color: #c9bab1
 }
 input, textarea {
-    background-color: #857482;
-    border: solid #857482;
+    background-color: #292947;
+    border: 2px solid #cab1ab;
     color: #f2e9e4;
     margin: 0.4em;
+}
+button {
+    border: 2px solid #cab1ab;
+    background-color: #292947;
+    padding: 5px;
+    color: #d8bfb8;
 }
 .caixa-sagas {
     background-color:rgb(27, 27, 48);
@@ -201,4 +207,70 @@ th, td {
 }
 #caixa-formulario p label {
     display: inline-block;
+}
+
+/*--- Jogo de Memória ---*/
+
+#caixa-jogo-memoria {
+    background-color: #1c1c31;
+    border: 2px solid #cab1ab;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    overflow: auto;
+}
+.carta-jogo-memoria {
+    display: inline-block;
+    background-color: #282846;
+    border: 2px solid #cab1ab;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    width: 225px;
+    height: 275px;
+}
+.carta-jogo-memoria:hover {
+    transform: scale(103%);
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+.emoji-jogo-memoria {
+    opacity: 0;
+    font-size: 5.5em;
+    text-align: center;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+}
+.emoji-jogo-memoria-acertado {
+    opacity: 1 !important;
+}
+.emoji-jogo-memoria-virando {
+    opacity: 1;
+    
+    @starting-style {
+        opacity: 0;
+    }
+}
+#botao-encerrar-jogo-memoria {
+    display: none;
+}
+#erro-jogo-memoria {
+    display: none;
+    color: red;
+}
+#ganhou-jogo-memoria {
+    display: none;
+    color: green;
+}
+#dados-jogo-memoria {
+    display: inline-flex;
+}
+#dados-pares-achados {
+    display: none;
+}
+#dados-tentativas {
+    display: none;
+}
+#dados-jogo-memoria p {
+    margin: 30px;
 }
