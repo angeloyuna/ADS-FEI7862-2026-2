@@ -113,11 +113,13 @@ th, td {
 
 /* --- Grid Ícones de Saga --- */
 
+#icone-saga {
+    display: flex;
+    justify-content: center;
+}
 #caixa-grid-icone-saga {
     background-color:rgb(27, 27, 48);
     border: 2px solid #cab1ab;
-    width: 60%;
-    padding: 20px;
     margin: 30px;
     text-align: center;
     overflow: auto;
@@ -158,4 +160,45 @@ th, td {
 }
 #grid-icone-quinze img {
     object-position: -25px;
+}
+
+/* --- Formulário de Universo Favorito --- */
+
+#formulario-universo {
+    display: grid;
+    justify-content: center;
+}
+#caixa-formulario {
+    background-color: rgb(30, 30, 53);
+    border: 2px solid #cab1ab;
+    padding: 15px;
+    margin: 20px;
+}
+#caixa-formulario h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px;
+}
+#caixa-formulario p {
+    text-align: center;
+}
+#caixa-formulario form p {
+    text-align: left;
+}
+#caixa-formulario form {
+    display: block;
+    margin: 30px;
+}
+#caixa-formulario form div {
+    text-align: center;
+    margin: 30px;
+}
+#caixa-formulario * {
+    font-size: 1.2em;
+}
+#caixa-formulario label {
+    display: block;
+}
+#caixa-formulario p label {
+    display: inline-block;
 }

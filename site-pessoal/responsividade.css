@@ -1,0 +1,238 @@
+@media screen and (max-width: 1600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    p, a, li {
+        font-size: 0.9em;
+    }
+
+    /* --- Personagens/Mídias Favoritas + Mídias gostaria conhecer --- */
+
+    .caixa-coluna-midias {
+        float: right;
+        width: 43%;
+    }
+    .caixa-coluna-personagens {
+        width: 57%;
+    }
+    .personagem {
+        height: 280px;
+    }
+
+    /* --- Barra de navegação (nav) --- */ 
+
+    .nav-link {
+        font-size: 1em;
+    }
+
+    /* --- Formulário de Universo Favorito --- */
+    
+    #caixa-formulario * {
+        font-size: 1.1em;
+    }
+    #caixa-formulario h2 {
+        font-size: 1.8em;
+    }
+
+    /* --- Tabela IFSC --- */
+
+    th, td {
+        font-size: 0.9em;
+    }
+    caption {
+        font-size: 0.9em;
+    }
+
+    /* --- Grid Ícones de Saga --- */
+
+    #grid-icone-saga {
+        grid-template-rows: 200px 200px 200px 200px 200px;
+        grid-template-columns: 200px 200px 200px 200px 200px;
+        margin: 20px;
+    }
+    #grid-icone-saga img {
+        height: 200px;
+        width: 200px;
+    }
+    #grid-icone-saga h3 {
+        font-size: 1em;
+    }
+    .grid-icone-header {
+        bottom: 4.5em;
+    }
+    .grid-icone-header p {
+        margin-top: -1.05em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-size: 1.6em;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+    p, a, li {
+        font-size: 0.8em;
+    }
+
+    /* --- Personagens/Mídias Favoritas + Mídias gostaria conhecer --- */
+
+    .caixa-coluna-midias {
+        float: right;
+        width: 40%;
+    }
+    .caixa-coluna-personagens {
+        width: 60%;
+    }
+    .caixa-personagem {
+        display: inline-block;
+        background-color: rgb(30, 30, 53);
+        border: 2px solid #cab1ab;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        width: 280px;
+    }
+    .personagem {
+        height: 260px;
+    }
+
+    /* --- Barra de navegação (nav) --- */ 
+
+    .nav-link {
+        font-size: 0.8em;
+    }
+
+    /* --- Formulário de Universo Favorito --- */
+    
+    #caixa-formulario * {
+        font-size: 1em;
+    }
+    #caixa-formulario h2 {
+        font-size: 1.6em;
+    }
+
+    /* --- Tabela IFSC --- */
+
+    th, td {
+        font-size: 0.8em;
+    }
+    caption {
+        font-size: 0.8em;
+    }
+
+    /* --- Grid Ícones de Saga --- */
+
+    #grid-icone-saga {
+        grid-template-rows: 180px 180px 180px 180px 180px;
+        grid-template-columns: 180px 180px 180px 180px 180px;
+        margin: 20px;
+    }
+    #grid-icone-saga img {
+        height: 180px;
+        width: 180px;
+    }
+    #grid-icone-saga h3 {
+        font-size: 0.8em;
+    }
+    .grid-icone-header {
+        bottom: 3.9em;
+    }
+}
+
+@media (orientation: portrait) {
+    
+    #caixa-colunas {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .caixa-coluna-midias {
+        width: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .caixa-coluna-personagens {
+        grid-column: span 2;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    p, a, li {
+        font-size: 0.95em;
+    }
+
+    /* --- Personagens/Mídias Favoritas + Mídias gostaria conhecer --- */
+
+    .caixa-personagem {
+        padding: 10px;
+        margin: 10px;
+        width: 300px;
+    }
+    .personagem {
+        height: 260px;
+    }
+
+    /* --- Barra de navegação (nav) --- */ 
+
+    .nav-link {
+        font-size: 1.2em;
+    }
+
+    /* --- Formulário de Universo Favorito --- */
+    
+    #caixa-formulario * {
+        font-size: 1.1em;
+    }
+    #caixa-formulario h2 {
+        font-size: 1.7em;
+    }
+
+    /* --- Tabela IFSC --- */
+
+    #disciplinas {
+        display: grid;
+        justify-content: center;
+    }
+    #disciplinas h2 {
+        text-align: center;
+    }
+    th, td {
+        font-size: 1.1em;
+    }
+    caption {
+        font-size: 1.1em;
+    }
+
+    /* --- Grid Ícones de Saga --- */
+
+    #grid-icone-saga {
+        grid-template-rows: 140px 140px 140px 140px 140px;
+        grid-template-columns: 140px 140px 140px 140px 140px;
+        margin: 20px;
+    }
+    #grid-icone-saga img {
+        height: 140px;
+        width: 140px;
+    }
+    #grid-icone-saga h3 {
+        font-size: 0.65em;
+    }
+    #grid-icone-saga p {
+        font-size: 0.6em;
+    }
+    .grid-icone-header {
+        bottom: 3.05em;
+    }
+}

@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário - IFSC ADS Frontend I</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsividade.css">
 </head>
 <body>
     <header>
@@ -16,30 +18,30 @@
         <a href="formulario.html" class="nav-link" id="nav-link-active">Formulário</a>
     </nav>
     <hr>
-    <main>
-        <h2>Formulário para seu Universo Favorito</h2>
-        <p>Se você gostaria de informar sobre os seus próprios universos favoritos, siga este <a href="formulario.html">Link</a>.</p>
-        <form method="post">
-            <label>Nome do Universo: <input type="text" name="nomeUniverso"></label>
-            <br>
-            <label>Nome do Autor/Desenvolvedor: <input type="text" name="autorUniverso"></label>
-            <p>Tipo de Universo:
-                <label><input type="radio" name="tipoUniverso" value="jogo">Jogo</label>
-                <label><input type="radio" name="tipoUniverso" value="serie">Série</label>
-                <label><input type="radio" name="tipoUniverso" value="livro">Livro</label>
-                <label><input type="radio" name="tipoUniverso" value="animeManga">Anime/Manga</label>
-            </p>
-            <label>Uma Cor que poderia descrever o Universo: <input type="color" name="corUniverso"></label>
-            <br>
-            <label>Data em que conheceu o Universo: <input type="date" name="dataUniverso"></label>
-            <br>
-            <label>Avaliação do Universo (0 a 5): <input type="range" name="avaliacaoUniverso" min="0" max="5"></label>
-            <br>
-            <label>Comentários sobre o Universo: <textarea name="comentarioUniverso" rows="1"></textarea></label>
-            <br>
-            <input type="submit" value="Mandar Formulário">      
-        </form>
-        <p><a href="index.html">Retornar para página principal</a></p>
+    <main id="formulario-universo">
+        <div id="caixa-formulario">
+            <h2>Formulário de Universo Favorito</h2>
+            <p>Aqui você pode informar sobre o seu próprio universo favorito.</p>
+            <hr>
+            <form method="post">
+                <label>Nome do Universo: <input type="text" name="nomeUniverso"></label>
+                <label>Nome do Autor/Desenvolvedor: <input type="text" name="autorUniverso"></label>
+                <p>Tipo de Universo:
+                    <label><input type="radio" name="tipoUniverso" value="jogo">Jogo</label>
+                    <label><input type="radio" name="tipoUniverso" value="serie">Série</label>
+                    <label><input type="radio" name="tipoUniverso" value="livro">Livro</label>
+                    <label><input type="radio" name="tipoUniverso" value="animeManga">Anime/Manga</label>
+                </p>
+                <label>Uma Cor que poderia descrever o Universo: <input type="color" name="corUniverso"></label>
+                <label>Data em que conheceu o Universo: <input type="date" name="dataUniverso"></label>
+                <label>Avaliação do Universo (0 a 5): <input type="range" name="avaliacaoUniverso" min="0" max="5"></label>
+                <label>Comentários sobre o Universo: <textarea name="comentarioUniverso" rows="1"></textarea></label>
+                <div>
+                    <input type="submit" value="Mandar Formulário">      
+                    <a href="index.html">Retornar para página principal</a>
+                </div>
+            </form>
+        </div>
     </main>
     <hr>
     <footer>
