@@ -6,4 +6,4 @@ Os múltiplos exercícios da disciplina foram feitos através do desenvolvimento
 
 ## Listas
 
-- [lista](lista-um)
+- [Lista 1](lista-um)
